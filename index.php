@@ -3,7 +3,7 @@
 <?php
 $id = $_GET['id'];
 ?>
-<?php if(strstr($_SERVER['HTTP_REFERER'],"https://yalesurvey.qualtrics.com/jfe/form/SV_d0eNmevM67B8kaV")) : ?>
+<?php if(strstr($_SERVER['HTTP_REFERER'],"[origin page here]")) : ?>
 <head>
 <meta charset="UTF-8">
 <title>Drag and Drop</title>
